@@ -46,21 +46,5 @@ namespace Bank_System
                 Console.WriteLine("You set unexisted client ....");
             }
         }
-        public void Deposit()
-        {
-
-        }
-        public void Withdraw()
-        {
-
-        }
-        public void Transfer()
-        {
-
-        }
-        public void Display()
-        {
-
-        }
     }
 }
