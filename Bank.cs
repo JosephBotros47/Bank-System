@@ -13,6 +13,7 @@ namespace Bank_System
         public NormalUser[] normuser =new NormalUser[100];
         public int NormuserCount = 0;
         // methods 
+        // for adding 
         public void Add(string n, int a,int money)
         {
             NormalUser nus1 = new NormalUser(n,a);
@@ -20,6 +21,7 @@ namespace Bank_System
             normuser[NormuserCount] = nus1;
             NormuserCount++;
         }
+        // for removing
         public void Remove (string n)
         {
             bool exist = false;
